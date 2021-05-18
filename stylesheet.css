@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+/* HTML ELEMENTS */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    z-index: 2;
+    min-height: 2em;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
+}
+
+nav {
+    top: 10px;
+}
+
+li {
+    text-align: right;
+    list-style-type: none;
+}
+
+a {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+nav a :hover {
+    color: white;
+}
+
+
+
+
+
+
+/* CLASS */
+
+.daughternav {
+    text-align: right;
+}
+
+.landingpage {
+    height: 40em;
+    color: white;
+}
+
+.carousel-item {
+}
+
+.title {
+    font-size: 2em !important;
+    font-weight: 300 !important;
+}
+
+.title_mother {
+    padding-left: 15vw;
+    padding-top: 15vw;
+}
+
+.img_landingpage_1 {
+    width: 60vw;
+    padding-left: 25vw;
+    box-sizing: content-box;
+    object-fit: cover;
+    padding-top: 15vw;
+}
+
+.img_landingpage_2 {
+    width: 35vw;
+    padding-left: 7.5vw;
+    box-sizing: content-box;
+    object-fit: cover;
+    padding-top: 15vw;
+}
+
+.img_landingpage_3 {
+    width: 35vw;
+    padding-left: 15vw;
+}
+
+
+
+
+
+/* ID */
+
+#aboutme {
+    float: right;
+}
+
+.carousel-item {
+    object-fit: cover;
+    height: 100vh;
+}
+
+.d-block {
+    object-fit: cover;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+/* ANIMATION */
+
+
+
+/* OVERLINE MENU */
+
+
+.underbar{
+    width: 3em;
+    height: 0.1em;
+    background: white;
+    right: 21.93em;
+    top: 8px;
+    position: absolute;
+    -webkit-transition: 0.5s ease;
+}
+a{
+    -webkit-transition: 0.5s ease;
+}
+
+a:nth-of-type(1):hover ~ .underbar{
+     right: 2.13em;
+     width: 5.21em;
+    color: white;
+}
+
+a:nth-of-type(2):hover ~ .underbar{
+    right: 10.21em;
+    width: 7.65em;
+    color: white;
+
+}
+
+a:nth-of-type(3):hover ~ .underbar{
+    /*HOME*/
+    color: red;
+
+}
+
+{
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
